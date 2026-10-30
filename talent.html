@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Talent | Aethel Automotive Influencer Agency</title>
+  <meta name="description" content="Browse Aethel's roster of specialist automotive creators across YouTube, Instagram, TikTok and more. Car reviewers, builders, motorsport, detailing and EV specialists.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <a href="index.html" class="logo">
+        <h1>Aethel</h1>
+        <span>Aethel | Automotive Influencer Agency</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="talent.html">Talent</a></li>
+          <li class="dropdown">
+            <a href="work-with-us.html">Work With Us</a>
+            <div class="dropdown-content">
+              <a href="work-with-us.html#brands">For Brands</a>
+              <a href="work-with-us.html#talent">For Talent</a>
+            </div>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" class="enquire-btn open-enquire">Enquire Now</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-btn">☰</button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Talent</h1>
+      <p class="section-subtitle">Specialist automotive creators with real expertise and trusted audiences.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="youtube">YouTube</button>
+        <button class="filter-btn" data-filter="instagram">Instagram</button>
+        <button class="filter-btn" data-filter="tiktok">TikTok</button>
+        <button class="filter-btn" data-filter="reviews">Reviews</button>
+        <button class="filter-btn" data-filter="builds">Builds</button>
+        <button class="filter-btn" data-filter="ev">EV</button>
+        <button class="filter-btn" data-filter="detailing">Detailing</button>
+      </div>
+
+      <div class="talent-grid">
+        <div class="talent-card" data-platforms="youtube instagram" data-niche="reviews">
+          <div class="talent-info">
+            <h3>Alex Carter</h3>
+            <div class="channel">@AlexDrives</div>
+            <div class="platform-tags">
+              <span class="tag">YouTube</span>
+              <span class="tag">Instagram</span>
+            </div>
+            <div class="stats">Car reviews focused on real-world ownership experience and practical testing for everyday drivers.</div>
+            <a href="talent-profile.html" class="view-profile">View Profile →</a>
+          </div>
+        </div>
+        <div class="talent-card" data-platforms="youtube tiktok" data-niche="builds">
+          <div class="talent-info">
+            <h3>James Wright</h3>
+            <div class="channel">@BuildWithJames</div>
+            <div class="platform-tags">
+              <span class="tag">YouTube</span>
+              <span class="tag">TikTok</span>
+            </div>
+            <div class="stats">Restorations, custom builds, and project cars with a focus on craftsmanship and process.</div>
+            <a href="talent-profile.html" class="view-profile">View Profile →</a>
+          </div>
+        </div>
+        <div class="talent-card" data-platforms="youtube instagram" data-niche="ev">
+          <div class="talent-info">
+            <h3>Sarah Chen</h3>
+            <div class="channel">@EVInsights</div>
+            <div class="platform-tags">
+              <span class="tag">YouTube</span>
+              <span class="tag">Instagram</span>
+            </div>
+            <div class="stats">EV reviews, new launches, and real-world insights on range, charging, and ownership.</div>
+            <a href="talent-profile.html" class="view-profile">View Profile →</a>
+          </div>
+        </div>
+        <div class="talent-card" data-platforms="instagram tiktok" data-niche="detailing">
+          <div class="talent-info">
+            <h3>Marcus Hale</h3>
+            <div class="channel">@DetailKing</div>
+            <div class="platform-tags">
+              <span class="tag">Instagram</span>
+              <span class="tag">TikTok</span>
+            </div>
+            <div class="stats">Detailing techniques, aftermarket products, and practical advice for car care enthusiasts.</div>
+            <a href="talent-profile.html" class="view-profile">View Profile →</a>
+          </div>
+        </div>
+        <!-- Additional placeholder cards can be added -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Aethel</h3>
+          <p>Automotive Influencer Agency</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="talent.html">Talent</a>
+          <a href="work-with-us.html">Work With Us</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <a href="mailto:hello@aethelimaagency.com">hello@aethelimaagency.com</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aethel. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal" id="enquireModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2 style="margin-bottom: 1.5rem; text-align: center;">Enquire Now</h2>
+      <div class="form-toggle">
+        <button class="toggle-btn active" data-type="brand">I'm a Brand</button>
+        <button class="toggle-btn" data-type="creator">I'm a Creator</button>
+      </div>
+      <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="company-label">Company</label>
+          <input type="text" name="company" required>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%;">Send Enquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
